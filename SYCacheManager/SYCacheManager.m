@@ -19,15 +19,6 @@ static NSString *const dataName = @"SYFMDB.db";
 @interface SYCacheManager ()
 
 @property (nonatomic, strong) NSString *dataPath; // 数据库文件目录
-//
-//// FMDB
-//@property (nonatomic, strong) FMDatabase *dataBase; // 是一个提供 SQLite 数据库的类，用于执行 SQL 语句。
-////@property (nonatomic, strong) FMResultSet *dataResult; // 用在 FMDatabase 中执行查询的结果的类。
-//@property (nonatomic, strong) FMDatabaseQueue *dataQueue; // 在多线程下查询和更新数据库用到的类。
-//
-//
-//// LKDBHelper
-//@property (nonatomic, strong) LKDBHelper *dataHelper; // 数据库
 
 @end
 
