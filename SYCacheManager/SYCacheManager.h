@@ -24,7 +24,6 @@
 */
 
 #import <Foundation/Foundation.h>
-#import <LKDBHelper/LKDBHelper.h>
 
 @interface SYCacheManager : NSObject
 
@@ -38,13 +37,6 @@
 
 
 #pragma mark - FMDBDatabase操作
-
-/// 创建表、删除表、保存数据、读取数据、修改数据、删除数据
-@property (nonatomic, strong, readonly) FMDatabase *fmdbManager;
-
-#pragma mark - LKDBHelper操作
-
-@property (nonatomic, strong, readonly) LKDBHelper *lkdbManager;
 
 /**
  *  创建表
